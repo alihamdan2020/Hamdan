@@ -1674,7 +1674,11 @@ header .nested-menu .links a {
   justify-content: space-between;
   align-items: center;
   column-gap: 20px;
-
+}
+@media (max-width:768px){
+  .footer .container{
+    flex-direction: column;
+  }
 }
 
 .footer .container .box {
